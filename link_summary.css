@@ -5,9 +5,8 @@ body, html{
     color: #fff;
 }
 body{
-    background-image: url("./img/20220505_064410.JPG");
-    /* background-size: cover; */
-    background-size:auto 100%;
+    background-image: url("./img/_MG_2766.JPG");
+    background-size: cover;
     background-repeat: no-repeat;
 }
 #vanta {

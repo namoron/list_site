@@ -10,8 +10,20 @@
         <script>
         window.addEventListener('DOMContentLoaded', () => {
         VANTA.NET({
-        el: "vanta",
-        mouseControls: true,
+        el: "#vanta",
+//         mouseControls: true,
+//   touchControls: true,
+//   gyroControls: false,
+//   minHeight: 200.00,
+//   minWidth: 200.00,
+//   scale: 1.00,
+//   scaleMobile: 1.00,
+//   color: 0xffffff,
+//   backgroundColor: 0x15173c,
+//   points: 20.00,
+//   maxDistance: 20.00,
+//   spacing: 20.00
+mouseControls: true,
   touchControls: true,
   gyroControls: false,
   minHeight: 200.00,
@@ -19,11 +31,11 @@
   scale: 1.00,
   scaleMobile: 1.00,
   color: 0xffffff,
-  backgroundColor: 0x15173c,
   points: 20.00,
-  maxDistance: 20.00,
-  spacing: 20.00
-        })
+  maxDistance: 10.00,
+    backgroundAlpha: 0.0,
+        
+    })
         setTimeout(() => {
         const main=document.querySelector('main')
         main.style.opacity = 1
