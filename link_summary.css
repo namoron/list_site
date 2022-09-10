@@ -110,8 +110,8 @@ ul > li {
     backdrop-filter: blur(10px) saturate(160%)contrast(180%);
     -webkit-backdrop-filter: blur(10px) saturate(160%)contrast(180%);
     border-radius:3em;
-    padding: 1% 5%;
-    margin:3em 0;
+    padding: 2% 5%;
+    margin:3em 2em;
     box-shadow: rgb(28, 32, 93)0px 2px 8px 0px;
 }
 @media(max-device-width:840px){
@@ -143,10 +143,26 @@ ul > li > a{
     align-items: center;
     gap: 0.5em;
 }
+ul > li > a > img{
+    width:1.5em;
+}
+@media(max-device-width:700px){
+    ul > li > a > img{
+        width:2em;
+    }
+}
+
 a{
     color: black;
     text-decoration: none;
-    font-size: xx-large;
+    font-size: large;
+}
+@media(max-device-width:700px){
+    a{
+        color: black;
+        text-decoration: none;
+        font-size: xx-large;
+    }
 }
 a:active {
 color: none;
