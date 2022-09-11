@@ -55,7 +55,7 @@ mouseControls: true,
                 var d = new Date();
                 var n = d.getHours();
                 console.log(n);
-                if (n == 18 || n < 6) {
+                if (n > 18 || n < 6) {
                 document.body.className = "night";
                 } else {
                 document.body.className = "day";
