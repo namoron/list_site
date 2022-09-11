@@ -43,8 +43,28 @@ mouseControls: true,
         }, 1000)
     })
         </script>
+
+        <!-- <script type="text/javascript" src="link_summary.js"></script> -->
+
     </head>
     <body> 
+        <script>
+            setInterval(change_background, 10000);
+        
+            function change_background() {
+                var d = new Date();
+                var n = d.getHours();
+                console.log(n);
+                if (n == 18 || n < 0) {
+                document.body.className = "night";
+                } else {
+                document.body.className = "day";
+                }
+            }
+        
+            change_background();
+            </script>
+            
         <div id="vanta"></div>
         <main>
         <header>
