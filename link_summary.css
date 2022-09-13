@@ -4,6 +4,9 @@ body, html{
     /* background: gray; */
     color: #fff;
 }
+body{
+    background-color: #aaaaaa;
+}
 .night{
     background-image: url("./img/202348.JPG");
     background-size: cover;
@@ -15,7 +18,7 @@ body, html{
     background-image: url("./img/204412.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    }
+}
     
 }
 .day{
@@ -44,7 +47,7 @@ main{
     position: relative;
     opacity: 0;
     filter: blur(10px);
-    transition: opacity 2s ease-in-out, filter 2s ease-in-out;
+    transition: opacity 1.5s ease-in-out, filter 1.5s ease-in-out;
 }
 header{
     margin-top:  1em;
